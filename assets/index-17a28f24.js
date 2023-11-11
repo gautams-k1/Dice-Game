@@ -69,7 +69,7 @@ Error generating stack: `+o.message+`
     color: #fff;
     border: 1px solid transparent;
   }
-`;function xm({toggle:e}){return T.jsx(T.Fragment,{children:T.jsxs(Em,{children:[T.jsx("div",{children:T.jsx("img",{src:"/images/dices 1.png",alt:""})}),T.jsxs("div",{className:"gameStartText",children:[T.jsx("h1",{children:"DICE GAME"}),T.jsx(Hu,{onClick:e,children:"Play Now"})]})]})})}const Em=be.div`
+`;function xm({toggle:e}){return T.jsx(T.Fragment,{children:T.jsxs(Em,{children:[T.jsx("div",{children:T.jsx("img",{src:"images/dices 1.png",alt:""})}),T.jsxs("div",{className:"gameStartText",children:[T.jsx("h1",{children:"DICE GAME"}),T.jsx(Hu,{onClick:e,children:"Play Now"})]})]})})}const Em=be.div`
     max-width: 1180px;
     margin: 0 auto;
     display: flex;
@@ -183,7 +183,7 @@ Error generating stack: `+o.message+`
       width: calc(70vw / 6);
       height: 54px;
     }
-`;function Tm({currentDice:e,roleDice:t}){return T.jsxs(Rm,{children:[T.jsx("div",{className:"diceRole",onClick:t,children:T.jsx("img",{src:`/images/dice_${e}.png`,alt:""})}),T.jsx("p",{children:"Click on the Dice to roll"})]})}const Rm=be.div`
+`;function Tm({currentDice:e,roleDice:t}){return T.jsxs(Rm,{children:[T.jsx("div",{className:"diceRole",onClick:t,children:T.jsx("img",{src:`images/dice_${e}.png`,alt:""})}),T.jsx("p",{children:"Click on the Dice to roll"})]})}const Rm=be.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
